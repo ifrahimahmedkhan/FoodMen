@@ -1,0 +1,333 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+nav{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 35px;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    
+}
+.logo a{
+    font-size: 31px;
+    font-style: italic;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Men{
+    color: black;
+}
+.ul_link{
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.ul_link:hover{
+    color: black;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 28px;
+    padding: 40px;
+
+}
+.left h1{
+    font-size: 44px;
+    font-weight: bold;
+}
+.left{
+    padding: 35px 45px;
+    text-align: justify;
+}
+.left p{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.left button{
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: orange;
+}
+.hero2 h1{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.hero2{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.hero2 p{
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+}
+.card p{
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.card{
+    width: 280px;
+    text-align: center;
+    padding: 20px;
+      border-radius: 20px;
+      transition: 0.8s;
+}
+.card h2{
+    margin-top: 10px;
+}
+.card img{
+  
+    width: 280px;
+    height: 250px;
+    margin-top: 10px;
+}
+.price button{
+    background-color: orange;
+    padding: 10px 15px;
+    border-radius: 18px;
+    border: none;
+    margin-top: 12px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.star{
+    color: orange;
+    margin-top: 10px;
+}
+.lefts{
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.hero3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rights{
+    margin-top: 100px;
+}
+.rights p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.rights button{
+    background-color: orange;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 12px;
+}
+.sticker{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.hero4 h3{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.hero4{
+    width: 370px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    height: 230px;
+    border-radius: 10px;
+}
+.hero4:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.hero4 p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.hero4 button{
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.heros4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+ .hero {
+            min-height: 430px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 70px;
+            padding: 45px 7%;
+            background: #fff;
+        }
+
+        .chef-area {
+            position: relative;
+            width: 400px;
+            height: 330px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .orange-circle {
+            position: absolute;
+            width: 270px;
+            height: 270px;
+            background: #ff7900;
+            border-radius: 50%;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .chef-image {
+            position: relative;
+            z-index: 2;
+            width: 230px;
+            height: 290px;
+            object-fit: contain;
+            margin-top: 25px;
+        }
+
+        .hero-content {
+            width: 520px;
+            text-align: center;
+        }
+
+        .hero-content h1 {
+            font-size: 32px;
+            line-height: 1.15;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .hero-content .intro {
+            font-size: 12px;
+            line-height: 1.5;
+            color: #888;
+            margin-bottom: 8px;
+        }
+
+        .features {
+            list-style: none;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .features li {
+            font-size: 12px;
+            font-weight: 600;
+            margin: 7px 0;
+            color: #555;
+        }
+
+        .features li::before {
+            content: "✓";
+            display: inline-flex;
+            width: 11px;
+            height: 11px;
+            justify-content: center;
+            align-items: center;
+            margin-right: 6px;
+            color: white;
+            font-size: 8px;
+            font-weight: bold;
+        }
+
+        .features li:nth-child(1)::before {
+            background: #55a630;
+        }
+
+        .features li:nth-child(2)::before {
+            background: #1769aa;
+        }
+
+        .features li:nth-child(3)::before {
+            background: #e60000;
+        }
+
+        footer {
+            background: #fffcfa;
+            border-top: 1px solid #f4f4f4;
+            padding: 38px 30px 25px;
+        }
+
+        .footer-container {
+            max-width: 1000px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 45px;
+        }
+
+        .footer-column h3 {
+            font-size: 17px;
+            margin-bottom: 12px;
+            color: #111;
+        }
+
+        .footer-column:first-child h3 {
+            color: #0000cc;
+        }
+
+        .footer-column p {
+            color: #888;
+            font-size: 11px;
+            line-height: 1.5;
+            max-width: 330px;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            color: #888;
+            font-size: 11px;
+            margin: 8px 0;
+        }
+
+        .copyright {
+            text-align: center;
+            color: #888;
+            font-size: 11px;
+            margin-top: 15px;
+        }
